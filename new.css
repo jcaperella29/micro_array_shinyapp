@@ -1,0 +1,28 @@
+/* custom.css */
+
+/* Style for the sidebar */
+.sidebar {
+  background-color: purple;
+  color: black;
+}
+
+/* Ensure the text inside inputs and labels in the sidebar are black */
+.sidebar .shiny-input-container input,
+.sidebar .shiny-input-container label,
+.sidebar .shiny-input-container .control-label {
+  color: black;
+}
+
+/* Style for the sidebar buttons */
+.sidebar .btn {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+/* Ensure the buttons maintain their style on hover */
+.sidebar .btn:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
